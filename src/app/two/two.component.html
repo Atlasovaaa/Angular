@@ -1,0 +1,22 @@
+<div class="messages-box">
+ <ul *ngFor="let msg of message">
+    <li class="my-message">
+        <div class="message-contain">
+            <div class="message-txbox">
+              <p>
+                {{msg.user}}
+              </p>
+            </div>
+        </div>
+    </li>
+    <li class="bot-message">
+        <div class="message-contain">
+            <div class="message-txbox">
+              <p>{{msg.bot}}</p>
+            </div>
+        </div>
+    </li>
+  </ul>
+</div> 
+
+
